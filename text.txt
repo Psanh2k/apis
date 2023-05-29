@@ -1,0 +1,2 @@
+1. Create project Laravel
+2. Import library create repository: composer require jason-guru/laravel-make-repository --dev
