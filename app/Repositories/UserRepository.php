@@ -2,6 +2,7 @@
 
 namespace App\Repositories;
 
+use App\Models\User;
 use JasonGuru\LaravelMakeRepository\Repository\BaseRepository;
 //use Your Model
 
@@ -16,6 +17,6 @@ class UserRepository extends BaseRepository
      */
     public function model()
     {
-        //return YourModel::class;
+        return User::class;
     }
 }
